@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --corLaranja :#f7b600 ;
+
+    --fonte: 'Trebuchet MS',sans-serif ;
+}
+
+body{
+    background-color: rgba(245, 245, 245, 0.89);
+    font-family: var(--fonte);
+}
+header {
+    background-image: linear-gradient( to bottom , rgb(247, 244, 75) , rgb(255, 208, 0) , #f7b600 )
+}
+
+header > h1 {
+    font-family: 'Trebuchet MS',sans-serif;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+span {
+    color: white;
+}
+
+nav {
+    background-color: var(--corLaranja);
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+
+nav > a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: var(--fonte) ;
+}
+
+nav a:visited{
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--corLaranja);
+    background-color: white;
+    transition-duration:0.5s;
+}
+
+main {
+   min-width: 300px;
+   max-width: 1000px;
+   margin: 10px auto;
+   border-radius: 40px;
+   border-color: #f7b600;
+   
+}
+
+div  h2 {
+    color:var(--corLaranja) ;
+    padding: 10px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div p {
+    padding: 5px 5px 5px 5px;
+}
+
+div img {
+    width: 90%;
+    padding: 10px;
+}
+
+div h3 {
+    background-color: var(--corLaranja);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+div.conteudo {
+    padding: 10px;
+}
+
+.postagens {
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.37);  
+    margin: 0px 0px 10px 0px ; 
+    border-radius: 10px;
+    min-width: 240;
+    max-width: 660px;
+}
+
+.Postagens-lateral{
+    min-width: 240;
+    max-width: 660px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#postagem {
+    padding: 20px;
+    max-width: 660px;
+    min-width: 100px;
+    float: left;
+    margin: 0px auto 0px auto;
+    background-color: whitesmoke;
+
+}
+
+ .P {
+    min-width: 305px;
+    max-width: 600px;
+    padding: 10px;
+}
+
+#lateral {
+    padding: 20px;
+    max-width: 240px;
+    min-width: 100px;
+    float: right;
+    margin: 0px auto 0px auto;
+    background-color: rgba(245, 245, 245, 0.89);
+}
+
+footer {
+    clear: both;
+    background-color: var(--corLaranja);
+    margin: 15px auto 15px auto;
+    padding: 20px 13px ;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.37);
+    text-align: center;
+    max-width: 946px;
+    min-width: 240px;
+}
+
+#footer {
+    margin: 0px 15px 0px 15px ;
+}
+
+.SaberMais {
+    display: block;
+    color: var(--corLaranja);
+    margin: 10px 10px 10px 10px ;
+    padding: 0px 0px 20px 0px ;
+}
+
+.ler-mais {
+    display: block;
+    padding: 3px 0px 8px 0px;
+    margin: 5px 3px 0px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.Postagens-lateral p {
+    display: block;
+    padding: 8px 0px 0px 0px;
+}
+
+.Postagens-lateral a {
+    
+    color: black;
+}
+
+.Postagens-lateral a:hover {
+    color: var(--corLaranja);
+}
+
+.ler-mais:hover {
+    color: var(--corLaranja);
+}
+
+.conteudo {
+    background-color: white;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.37);  
+    margin: 0px 0px 10px 0px ; 
+    border-radius: 10px;
+}

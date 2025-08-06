@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+    <style>
+        body{
+            background-color: rgb(69, 149, 214);
+        }
+        h2{
+            color: blue;
+        }
+        p{
+            background-color: blue;
+        }
+        audio{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: aliceblue; text-align: center;" >Desafio de Imagem Flexivel</h1>
+    <p>Você verá esta imagem em tamanhos difrentes se usar dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="">
+    </picture>
+      <h2>Poderas também ouvir uma musica</h2>
+      <audio src="harry_styles_golden_official_video_aac_1275.m4a" loop controls></audio>
+      <h2>Poderas gostar desta musica também</h2>
+      <audio preload="metadata" controls>
+        <source src="tom_odell_another_love_aac_80303.m4a" type="">
+      </audio>
+      <p>O seu navegador não consegue reproduzir este audio</p>
+      <a href="tom_odell_another_love_aac_80303.m4a" download="audio/tom_odell_another_love_aac_80303/mp3" type="audio/mp3" target="_blank">Clique aqui para baixar</a>
+      <h3>Pode assistir o video <a href="site de video/index.html" target="_blank" rel="next">Aqui</a></h3>
+</body>
+</html>
