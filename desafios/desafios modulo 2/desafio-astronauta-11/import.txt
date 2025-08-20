@@ -1,0 +1,25 @@
+Chelsia One 
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+.chela-one-regular {
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+Caveat
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chela+One&display=swap');
+
+// <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.caveat-<uniquifier> {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
