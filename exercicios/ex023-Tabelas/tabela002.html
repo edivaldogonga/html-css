@@ -8,6 +8,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th , td {
@@ -15,9 +16,31 @@
             padding: 5px;
         }
 
+        caption { 
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+
         thead , tfoot {
             color: white;
             background-color: rgba(0, 0, 0, 0.514);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: white;
         }
 
         td.num {
@@ -30,11 +53,11 @@
     <h1>Usando tabelas grandes</h1>
 
     <table>
-        <caption></caption>
+        <caption>População das Unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
 
             </tr>
         </thead>
@@ -51,10 +74,18 @@
                 <td>Rio de janeiro</td>
                 <td class="num">17 264</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">11 433 957</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de abitantes</th>
+                <th scope="row">Total de abitantes</th>
                 <td class="num">000000</td>
             </tr>
         </tfoot>
