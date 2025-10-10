@@ -36,25 +36,14 @@ h1 {
     font-size: 1em;
 }
 
-img#phone {
-    display: block;
-    margin: auto;
-}
+img#phone { display: block; }
+img#tablet { display: none;}
+img#print { display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
 
-img#tablet {
-    display: none;
-}
-
-img#print {
-    display: none;
-}
-
-img#pc {
-    display: none;
-}
-
-img#tv {
-    display: none;
+img{ 
+    margin: auto
 }
 
 
