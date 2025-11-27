@@ -38,7 +38,7 @@ header > nav {
     justify-content: flex-end;
 }
 
-header > nav > a{
+header > menu > nav > a {
     background-color: black;
     color: white;
     padding: 10px;
