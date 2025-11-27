@@ -1,7 +1,6 @@
 @charset "UTF-8" ;
 
 
-
  header, header > nav {
     flex-flow: column nowrap;
 }
@@ -18,6 +17,14 @@ header > menu > nav > a {
 nav {
     display: flex;
     flex-flow: column nowrap;
+}
+
+body > header > #burguer {
+    display: none;
+}
+
+menu {
+    display: none;
 }
 
 

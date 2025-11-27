@@ -31,6 +31,17 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate, voluptatem ab nisi soluta eum voluptatibus optio corrupti non sed possimus fugit vero repellat laudantium libero impedit. Neque, accusantium nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae totam ab laudantium minima commodi eligendi? Saepe quia magnam dicta accusantium nobis aliquam quas quaerat maiores ipsam consectetur eligendi, ipsa dolorem.</p>
     </main>
     <script>
+
+        function  mudouTamanho(){
+        if (window.innerWidth >=768) {
+            itens.style.display='block'
+        }
+
+        else {
+            itens.style.display='none'
+        }
+    }
+    
         function clickMenu() {
             if (itens.style.display=='block') {itens.style.display='none'}
 
@@ -39,15 +50,6 @@
         } 
     }
 
-    function  mudouTamanho(){
-        if (window.innerwidth >=768) {
-            itens.style.display='block'
-        }
-
-        else {
-            itens.style.display='none'
-        }
-    }
     
     </script>
 </body>
